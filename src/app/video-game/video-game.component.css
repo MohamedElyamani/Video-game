@@ -1,0 +1,25 @@
+#videoGame{
+    background-image: url(../../assets/img/video-b-g.png);
+    background-position: center center;
+    background-size: cover;
+    padding-bottom: 0;
+}
+
+.video-content h3{
+    color: var(--mainColor);
+    font-size: 3em;
+}
+.video-content h2{
+    font-size: 4em;
+    margin: 20px 0;
+}
+
+.video-content button{
+    background-color: white;
+    border: 5px solid var(--mainColor);
+    padding: 5px 30px;
+    border-radius: 30px;
+}
+.video-content button:hover{
+    color: var(--mainColor) !important;
+}

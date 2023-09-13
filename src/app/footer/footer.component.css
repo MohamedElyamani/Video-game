@@ -1,0 +1,44 @@
+#footer{
+    background-color: #292828;
+    color: #fff;
+}
+#footer h2{
+    font: 2.7em;
+    font-weight: 500;
+}
+#footer p{
+    margin-top: 20px;
+}
+#footer .useful-links ul{
+    padding-left: 0px !important;
+}
+#footer .useful-links ul li{
+    list-style: none;
+}
+#footer .useful-links ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+#footer .useful-links ul li a:hover{
+    color: rgb(0, 31, 204);
+}
+.line{
+    height: 1px;
+    background-color: #aaa;
+}
+.social-icon i{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #fff;
+    color: #292828;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+.rights{
+    background-color: #599EE9;
+}
+.rights p{
+    margin-bottom: 0px !important;
+}

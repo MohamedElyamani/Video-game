@@ -1,0 +1,21 @@
+#about{
+    background-color: var(--bgColor);
+}
+.about-content h2{
+    font-size: 3em;
+    font-weight: 500;
+}
+.about-content p{
+    font-weight: 500;
+    margin: 7% 0;
+}
+.about-content button{
+    background-color: white;
+    border: 5px solid var(--mainColor);
+    padding: 5px 30px;
+    border-radius: 30px;
+    font-size: 15px;
+}
+.about-content button:hover{
+    color: var(--mainColor) !important;
+}

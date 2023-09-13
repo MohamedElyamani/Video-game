@@ -1,0 +1,25 @@
+.product-title h2{
+    font-size: 3em;
+    font-weight: 500;
+}
+.product-title span,
+.product-content h3 span{
+    color: var(--mainColor);
+}
+.product-content h3{
+    font-size: 2.1em;
+    font-weight: 500;
+}
+.product-content h4{
+    margin: 20px 0;
+}
+.product-content button{
+    background-color: white;
+    border: 5px solid var(--mainColor);
+    padding: 5px 30px;
+    border-radius: 30px;
+    font-size: 15px;
+}
+.product-content button:hover{
+    color: var(--mainColor) !important;
+}

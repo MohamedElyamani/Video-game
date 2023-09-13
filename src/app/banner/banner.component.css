@@ -1,0 +1,128 @@
+header{
+    background-image: url(../../assets/img/banner-bg.png);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.row{
+    height: 80vh;
+    align-items: center;
+}
+.banner-content h1{
+    font-size: 3em;
+    font-weight: 500;
+}
+.banner-content h1 span{
+    font-size: 60px;
+    color: var(--mainColor);
+}
+.banner-content p{
+    font-weight: 500;
+    margin: 10% 0;
+}
+button{
+    background-color: #fff;
+    border: 5px solid var(--mainColor);
+    padding: 5px 30px;
+    border-radius: 30px;
+    font-size: 15px;
+}
+button:hover{
+    color: var(--mainColor) !important;
+    background-color: #fff;
+    border: 5px solid var(--mainColor);
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    .banner-content h1{
+        font-size: 2em;
+        font-weight: 500;
+    }
+    .banner-content h1 span{
+        font-size: 30px;
+        color: var(--mainColor);
+    }
+    .banner-content p{
+        font-weight: 500;
+        margin: 7% 0;
+    }
+    .image img{
+        width:80%
+    }
+}
+
+/* ////////////////////////////////////////////////////////////////// */
+#about{
+    background-color: var(--bgColor);
+}
+.about-content h2{
+    font-size: 3em;
+    font-weight: 500;
+}
+.about-content p{
+    font-weight: 500;
+    margin: 7% 0;
+}
+
+/* ////////////////////////////////////////////////////////////////// */
+
+.product-title h2{
+    font-size: 3em;
+    font-weight: 500;
+}
+.product-title span,
+.product-content h3 span{
+    color: var(--mainColor);
+}
+.product-content h3{
+    font-size: 2.1em;
+    font-weight: 500;
+}
+.product-content h4{
+    margin: 20px 0;
+}
+
+/* ////////////////////////////////////////////////////////////////// */
+
+#videoGame{
+    background-image: url(../../assets/img/video-b-g.png);
+    background-position: center center;
+    background-size: cover;
+    padding-bottom: 0;
+}
+
+.video-content h3{
+    color: var(--mainColor);
+    font-size: 3em;
+}
+.video-content h2{
+    font-size: 4em;
+    margin: 20px 0;
+}
+
+/* ////////////////////////////////////////////////////////////////// */
+
+#contact{
+    background-color: var(--bgColor);
+}
+.contact-info input,
+textarea{
+    border: none;
+    border-bottom: 1px solid #aaa;
+    background-color: transparent;
+    outline: none;
+    resize: none;
+}
+.contact-info button{
+    color: #fff;
+    background-color: #BB2D3B;
+    border: none;
+}
+.contact-info button:hover{
+    color: #fff !important;
+    background-color: #d32637;
+}

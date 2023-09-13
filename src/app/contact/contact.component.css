@@ -1,0 +1,11 @@
+#contact{
+    background-color: var(--bgColor);
+}
+.contact-info input,
+textarea{
+    border: none;
+    border-bottom: 1px solid #aaa;
+    background-color: transparent;
+    outline: none;
+    resize: none;
+}
